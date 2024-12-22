@@ -36,12 +36,12 @@ Set up the environment variables:
 Create a .env file in the root directory and add the necessary configuration (e.g., database URL, payment API keys).
 Install dependencies:
 
-bash
+```bash
 Copy code
 go mod tidy
 Run the application:
 
-bash
+```bash
 Copy code
 go run main.go
 Visit http://localhost:8080 in your browser to access the platform.
